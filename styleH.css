@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+    h1{
+    margin-top: 2%;
+    color: #fff;
+    }
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    padding: 2%;
+
+    button{
+        width: 100px;
+        height: 50px;
+        border-radius: 50px;
+        border: 2px #fff solid;
+        color: #fff;
+        cursor: pointer;
+    }
+    #grifinoria{
+        background-color: rgb(114, 0, 0);
+    }
+    #sonserina{
+        background-color: rgb(0, 90, 0);
+    }
+    #corvinal{
+        background-color: rgb(0, 0, 142);
+    }
+    #lufalufa{
+        background-color: rgb(139, 139, 0);
+    }
+    #todasAsCasas{
+        background-color: black;
+    }
+}
+#personagens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2%;
+    gap: 25px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 260px;
+    height: 450px;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    cursor: pointer;
+
+    .imgPersonagem1{
+    width: 180px;
+    height: 250px;
+    margin-top: 15px;
+    border-radius: 10px;
+    }
+
+    h2{
+        display: flex;
+        margin-top: 2%;
+        color: #fff;
+    }
+
+    ul{
+        flex-direction: column;
+        color: #fff;
+    }
+}
